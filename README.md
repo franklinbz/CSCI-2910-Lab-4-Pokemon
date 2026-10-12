@@ -105,6 +105,10 @@ profiles still work. A 403 is reported as an HTTP error rather than cached.
 - **Damaged cache or failed writes — resolved:** An unreadable cache starts empty with a warning. Invalid cached resources are fetched again. Failed writes preserve data in memory for the current session.
 - **Live API verification — pending:** Direct requests received HTTP 403 in the test environment. The 16 passing automated tests use simulated responses. Live success still needs to be checked on an unrestricted connection using the checklist above.
 
+## Ai Usage
+
+I used basic ChatGPT to help me with some of the documentation and testing, specifically, I had it help with some of the test scenarios for test_pokemon_lookup. I also had it help me with this README document, especially with formatting and fancy table. I asked it a lot of questions about GitHub as I am still not very good at operating it. I chose this as my "real world project scenario" to experiment with and document for my "Practical Applications of Artificial Intelligence" class.
+
 ## Files
 
 - `pokemon_lookup.py`: application source.
